@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        div {
+            box-sizing: border-box;
+            border: 1px dotted red;
+        }
+
+        #wrapper {
+            width: 800px;
+            height: 1200px;
+
+        }
+
+        #iframewrap {
+            position: relative;
+            width: 50%;
+            height: 50%;
+
+            /*padding-bottom: 5%;*/
+        }
+
+        #iframewrap iframe {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="wrapper">
+        <div id="iframewrap1">
+            <iframe width="300" height="200" src="https://www.youtube.com/embed/y1kwIY9GCkg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+        <div id="iframewrap2">
+            <iframe width="300" height="200" src="https://www.youtube.com/embed/y1kwIY9GCkg?&amp;autoplay=1&amp;loop=1 frameborder=" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+    </div>
+</body>
+</html>

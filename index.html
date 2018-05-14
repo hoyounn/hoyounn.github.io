@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>front</title>
+    <style>
+        body {
+            background-color: black;
+            color: #e8e8e8;
+            max-width: 1200px;
+            max-height: 1200px;
+            min-width: 500px;
+            min-height: 700px;
+            margin: 0 auto;
+        }
+
+        div {
+            /* border: 1px dotted red;*/
+            box-sizing: border-box;
+        }
+
+
+        #wrapper {
+            width: 900px;
+            height: 1200px;
+            display: block;
+            margin: 0 auto;
+
+
+        }
+
+        #header {
+            height: 10%;
+            border-bottom-color: #d6d6d6;
+            border-bottom-style: solid;
+            border-bottom-width: thin;
+        }
+
+        #head1 {
+            width: 50%;
+            height: 100%;
+            float: left;
+        }
+
+        #head1_01 {
+            width: 30%;
+            height: 100%;
+            float: left;
+        }
+
+        #head1_02 {
+            width: 70%;
+            height: 100%;
+            float: left;
+        }
+
+        /* #head1_02>h1 {
+            font-size: 60px;
+            text-align: right;
+            margin: 60px 50px 0px auto;
+        }
+
+        #head1_02>sub {
+            font-size: 10px;
+            display: block;
+            text-align: right;
+            margin: 0px 50px;
+
+        }*/
+
+        #head1_02>img {
+            margin: 0px 50px;
+            width: 200px;
+            height: 110px;
+        }
+
+        #head2 {
+            width: 20%;
+            height: 100%;
+            float: left;
+        }
+
+        #head3 {
+            width: 30%;
+            height: 100%;
+            float: left;
+        }
+
+        #login {
+            width: 100%;
+            height: 10%;
+            float: left;
+        }
+
+        #login li {
+            list-style-type: none;
+            width: 100%;
+            text-align: center;
+            box-sizing: border-box;
+
+        }
+
+        #login li a {
+            display: block;
+            text-decoration: underline;
+            float: right;
+            font-size: 8px;
+            width: 15%;
+            color: #d6d6d6;
+
+        }
+
+        #head3_01 {
+            width: 100%;
+            height: 90%;
+            float: left;
+        }
+
+        #menu {
+            width: 100%;
+            height: 3%;
+            background-color: white;
+            padding: 0px 7px;
+            box-sizing: border-box;
+        }
+
+        #menu li {
+            list-style-type: none;
+
+            width: 100%;
+        }
+
+        #menu li a {
+            display: block;
+            text-decoration: none;
+            width: 15%;
+            float: left;
+            color: black;
+            padding: 8.5px 7px;
+            margin: 0px;
+            text-align: center;
+            font-family: fantasy;
+        }
+
+        #menu li a:hover {
+            background: black;
+            color: white;
+        }
+
+        #content {
+            height: 77%;
+        }
+
+        #cont1 {
+            height: 40%;
+
+        }
+
+        #iframewrap {
+            position: relative;
+            width: 80%;
+            height: 100%;
+            padding: 0px 80px;
+            z-index: -1;
+        }
+
+        #iframewrap iframe {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+
+        }
+
+        #cont2 {
+            height: 15%;
+            border-bottom-style: solid;
+            border-bottom-width: thin;
+            border-bottom-color: #d6d6d6;
+            border-top-style: solid;
+            border-top-width: thin;
+            border-top-color: #d6d6d6;
+        }
+
+        #cont2 li {
+            list-style-type: none;
+            width: 100%;
+            box-sizing: border-box;
+
+
+        }
+
+        #cont2 li img {
+            display: block;
+            float: left;
+            padding: 7px 0px;
+            margin: 0px 1.5px;
+        }
+
+        #cont3 {
+            height: 45%;
+        }
+
+        #con1 {
+            width: 30%;
+            height: 100%;
+            float: left;
+        }
+
+        #con1>h3 {
+            margin: 0 auto;
+
+        }
+
+        #game1 {
+            width: 100%;
+            height: 60%;
+            border-bottom: 1px solid white;
+            border-top: 1px solid white;
+            margin: 0 auto;
+
+        }
+
+        #game2 {
+            width: 100%;
+            height: 20%;
+        }
+
+        #game2>p {
+            margin: 0 auto;
+        }
+
+        #game3 {
+            width: 100%;
+            height: 15%;
+        }
+
+        #game3>p {
+            margin: 0 auto;
+        }
+
+        #con2 {
+            width: 50%;
+            height: 100%;
+            float: left;
+            box-sizing: border-box;
+
+        }
+
+        #imgwrapper1 {
+            width: 30%;
+            height: 100%;
+            float: left;
+            /*overflow: hidden;*/
+        }
+
+        #imgwrap1 {
+            width: 100%;
+            height: 60%;
+            float: left;
+
+        }
+
+        /*        #img1 {
+            width: 50%;
+            height: 50%;
+            float: left;
+            transition-duration: 1s;
+
+        }
+
+        #img1:hover {
+            transform: scale(1.15);
+            transition-duration: 1s;
+        }*/
+
+        #img2 {
+            width: 100%;
+            height: 50%;
+            float: left;
+            transition-duration: 1s;
+        }
+
+        /*   #img2:hover {
+            transform: scale(1.15);
+            transition-duration: 1s;
+        }*/
+
+        /*     #img3 {
+            width: 50%;
+            height: 50%;
+            float: left;
+            transition-duration: 1s;
+        }
+
+        #img3:hover {
+            transform: scale(1.15);
+            transition-duration: 1s;
+        }
+*/
+
+        #img4 {
+            width: 100%;
+            height: 50%;
+            float: left;
+            transition-duration: 1s;
+        }
+
+        /*  #img4:hover {
+            transform: scale(1.15);
+            transition-duration: 1s;
+        }*/
+
+        /*      #imgwrap2 {
+            width: 50%;
+            height: 40%;
+            float: left;
+
+        }
+
+         #img5 {
+            width: 50%;
+            height: 50%;
+            float: left;
+        }
+
+        #img6 {
+            width: 50%;
+            height: 50%;
+            float: left;
+        }*/
+
+        #imgwrap3 {
+            width: 100%;
+            height: 40%;
+            float: left;
+
+        }
+
+        #img7 {
+            width: 100%;
+            height: 40%;
+            float: left;
+            transition-duration: 1s;
+        }
+
+        /*  #img8 {
+            width: 50%;
+            height: 50%;
+            float: left;
+        }*/
+
+        /*  #img7:hover {
+            transform: scale(1.5);
+            transition-duration: 1s;
+        }*/
+
+        #imgwrapper2 {
+            width: 70%;
+            height: 100%;
+            float: left;
+
+        }
+
+        #img9 {
+            width: 100%;
+            height: 50%;
+            float: left;
+            transition-duration: 1s;
+        }
+
+        /*#img9:hover {
+            transform: scale(1.5);
+            transition-duration: 1s;
+        }*/
+
+        #img10 {
+            width: 100%;
+            height: 50%;
+            float: left;
+        }
+
+
+
+        #footer {
+            height: 10%;
+            border-top: 1px solid white;
+
+        }
+
+        #foot1 {
+            width: 50%;
+            height: 100%;
+            float: left;
+        }
+
+        #foot2 {
+            width: 50%;
+            height: 100%;
+            float: left;
+        }
+
+        .master {
+            width: 30%;
+            height: 100%;
+            float: left;
+        }
+
+        .master h3 {
+            text-align: center;
+            margin: 20px 0px 0px 0px;
+        }
+
+        .master p {
+            text-align: right;
+            margin: 0px 30px 0px 0px;
+        }
+
+        .location {
+            width: 70%;
+            height: 100%;
+            float: left;
+        }
+
+        .location p {
+            font-size: 16px;
+            margin: 15px 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="wrapper">
+
+        <div id="header">
+
+            <div id="head1">
+                <div id="head1_01">
+
+                </div>
+                <div id="head1_02">
+                    <img src="tclub_logo.png" alt="로고안보잉">
+                    <!--      <h1>TCLUB</h1>
+                    <sub>MuayThai Gym</sub>-->
+                </div>
+            </div>
+            <div id="head2"></div>
+            <div id="head3">
+                <div id="login">
+                    <li><a href="">Login</a></li>
+                    <li><a href="">Join Us</a></li>
+                </div>
+                <div id="head3_01"></div>
+            </div>
+        </div>
+        <div id="menu">
+            <li><a href="">DIRECTOR</a></li>
+            <li><a href="">PLAYER</a></li>
+            <li><a href="">GAME</a></li>
+            <li><a href="">TRAINING</a></li>
+            <li><a href="">TBARAGI</a></li>
+            <li><a href="">BRANCH&amp;LOCTION</a></li>
+        </div>
+
+        <div id="content">
+            <div id="cont1">
+                <!--<div id="con1">-->
+                <div id="iframewrap">
+                    <iframe src="https://www.youtube.com/embed/y1kwIY9GCkg?&amp;autoplay=1&amp;loop=1 frameborder=" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                </div>
+                <!--</div>-->
+
+            </div>
+            <div id="cont2">
+                <li><img src="k-1.png" width="220px" height="120px" alt=""></li>
+                <li><img src="ktk.jpg" width="220px" height="120px" alt=""></li>
+                <li><img src="MAXFC_LOGO.jpg" width="220px" height="120px" alt="">
+                </li>
+                <li>
+                    <img src="MKF logo.png" width="220px" height="120px" alt=""></li>
+            </div>
+            <div id="cont3">
+                <div id="con1">
+                    <h3>경기 일정</h3>
+                    <div id="game1">
+                        <!-- <div id="gameposter1">
+                            <img src="180512경기.jpg" alt="">
+                        </div>
+                        <div id="gameposter2">
+                            <img src="180512경기 포스터.jpg" alt="">
+                        </div>-->
+
+                    </div>
+                    <div id="game2">
+                        <p>장소</p>
+                        <div id="place"></div>
+                    </div>
+                    <div id="game3">
+                        <p>시간</p>
+                        <div id="time"></div>
+                    </div>
+
+
+
+
+                </div>
+                <div id="con2">
+                    <div id="imgwrapper1">
+                        <div id="imgwrap1">
+                            <!-- <div id="img1"><img width="200px" height="120px" src="2016송년회.jpg" alt=""></div>-->
+                            <div id="img2"><img width="185px" height="120px" src="바막.jpg" alt=""></div>
+                            <!--<div id="img3"><img width="185px" height="120px" src="심사.jpg" alt=""></div>-->
+                            <div id="img4"><img width="185px" height="120px" src="차안.jpg" alt=""></div>
+                        </div>
+                        <!-- <div id="imgwrap2">
+                            <div id="img5"><img width="100px" height="100px" src="타이거 로고.jpg" alt=""></div>
+                            <div id="img6"><img width="185px" height="160px" src="회식.jpg" alt=""></div>
+                        </div>-->
+                        <div id="imgwrap3">
+                            <div id="img7"><img width="185px" height="160px" src="BIGBEAST01.gif" alt=""></div>
+                            <!--<div id="img8"><img width="100px" height="100px" src="DOBI.jpg" alt=""></div>-->
+                        </div>
+                    </div>
+                    <div id="imgwrapper2">
+                        <div id="img9"><img width="245px" height="205px" src="DORAI01.gif" alt=""></div>
+                        <div id="img10"><img width="245px" height="205px" src="K1.jpg" alt=""></div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <div id="footer">
+            <div id="foot1">
+                <div class="master">
+                    <h3>총관장</h3>
+                    <p>김정윤</p>
+                </div>
+                <div class="location">
+                    <p>서울시 관악구 남부순환로 1937 우송빌딩 3층</p>
+                    <p>TEL:02-884-4256</p>
+                </div>
+            </div>
+            <div id="foot2">
+                <div class="master">
+                    <h3>상도관 관장</h3>
+                    <p>이한별</p>
+                </div>
+                <div class="location">
+                    <p>서울 동작구 상도로 95</p>
+                    <p>TEL:02-3280-3737</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
