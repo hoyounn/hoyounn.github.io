@@ -1,0 +1,318 @@
+    body {
+      background-color: black;
+      color: #e8e8e8;
+      max-width: 2000px;
+      max-height: 2500px;
+      min-width: 500px;
+      min-height: 700px;
+      margin: 0 auto;
+    }
+
+    div {
+      /*             border: 1px dotted red;*/
+      box-sizing: border-box;
+    }
+
+    #wrapper {
+      width: 1000px;
+      height: 2500px;
+      display: block;
+      margin: 0 auto;
+    }
+
+    #header {
+      height: 5%;
+      border-bottom-color: #d6d6d6;
+      border-bottom-style: solid;
+      border-bottom-width: thin;
+    }
+
+    #head1 {
+      width: 50%;
+      height: 100%;
+      float: left;
+    }
+
+    #head1_01 {
+      width: 30%;
+      height: 100%;
+      float: left;
+    }
+
+    #head1_02 {
+      width: 70%;
+      height: 100%;
+      float: left;
+    }
+    /* #head1_02>h1 {
+            font-size: 60px;
+            text-align: right;
+            margin: 60px 50px 0px auto;
+        }
+
+        #head1_02>sub {
+            font-size: 10px;
+            display: block;
+            text-align: right;
+            margin: 0px 50px;
+
+        }*/
+
+    #head1_02>img {
+      margin: 0px 50px;
+      width: 200px;
+      height: 110px;
+    }
+
+    #head2 {
+      width: 20%;
+      height: 100%;
+      float: left;
+    }
+
+    #head3 {
+      width: 30%;
+      height: 100%;
+      float: left;
+    }
+
+    #login {
+      width: 100%;
+      height: 10%;
+      float: left;
+    }
+
+    #login li {
+      list-style-type: none;
+      width: 100%;
+      text-align: center;
+      box-sizing: border-box;
+    }
+
+    #login li a {
+      display: block;
+      text-decoration: underline;
+      float: right;
+      font-size: 8px;
+      width: 15%;
+      color: #d6d6d6;
+    }
+
+    #head3_01 {
+      width: 100%;
+      height: 90%;
+      float: left;
+    }
+
+    #menu {
+      width: 100%;
+      height: 1.5%;
+      background-color: white;
+      padding: 0px 7px;
+      box-sizing: border-box;
+    }
+
+    #menu li {
+      list-style-type: none;
+      width: 100%;
+    }
+
+    #menu li a {
+      display: block;
+      text-decoration: none;
+      width: 15%;
+      float: left;
+      color: black;
+      padding: 8.5px 7px;
+      margin: 0px;
+      text-align: center;
+      font-family: fantasy;
+    }
+
+    #menu li a:hover {
+      background: black;
+      color: white;
+    }
+
+    #content {
+      height: 88.5%;
+    }
+
+    #cont1 {
+      height: 20%;
+    }
+
+    #iframewrap {
+      position: relative;
+      width: 60%;
+      height: 100%;
+      padding: 0px 200px;
+      z-index: -1;
+    }
+
+    #iframewrap iframe {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+    }
+
+    #cont2 {
+      height: 5%;
+      border-bottom-style: solid;
+      border-bottom-width: thin;
+      border-bottom-color: #d6d6d6;
+      border-top-style: solid;
+      border-top-width: thin;
+      border-top-color: #d6d6d6;
+    }
+
+    #cont2 li {
+      list-style-type: none;
+      width: 100%;
+      box-sizing: border-box;
+    }
+
+    #cont2 li img {
+      display: block;
+      float: left;
+      padding: 7px 0px;
+      margin: 5px 5px;
+    }
+
+    #cont3 {
+      height: 35%;
+    }
+
+    #con1 {
+      width: 100%;
+      height: 40%;
+      float: left;
+      box-sizing: border-box;
+    }
+
+    #con1 img {
+      margin: auto 25px;
+    }
+
+    #gamewrap1 {
+      width: 50%;
+      height: 100%;
+      float: left;
+    }
+
+    #gameposter1 {
+      width: 50%;
+      height: 100%;
+      float: left;
+      padding: 0px auto;
+    }
+
+    #gameposter2 {
+      width: 50%;
+      height: 100%;
+      float: left;
+      padding: 0px auto;
+    }
+
+    #gamewrap2 {
+      width: 50%;
+      height: 100%;
+      float: left;
+    }
+
+    #gameposter3 {
+      width: 50%;
+      height: 100%;
+      float: left;
+      padding: 0px auto;
+    }
+
+    #gameposter4 {
+      width: 50%;
+      height: 100%;
+      float: left;
+      padding: 0px auto;
+    }
+
+    #con1 h4 {
+      margin: 0px 0px 0px 0px;
+      border-bottom: 1px solid white;
+    }
+
+    #con2 {
+      width: 100%;
+      height: 60%;
+      float: left;
+      box-sizing: border-box;
+      border-bottom: 0.5px solid white;
+      border-top: 0.5px solid white;
+    }
+
+    #iframewrapper {
+      position: relative;
+      width: 60%;
+      height: 100%;
+      padding: 0px 200px;
+      z-index: -1;
+    }
+
+    #iframewrapper iframe {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+    }
+
+    #cont4 {
+      width: 100%;
+      height: 45.5%;
+    }
+
+    #footer {
+      height: 5%;
+      border-top: 1px solid white;
+    }
+
+    #foot1 {
+      width: 40%;
+      height: 100%;
+      float: left;
+    }
+
+    #foot2 {
+      width: 30%;
+      height: 100%;
+      float: left;
+    }
+
+    #foot3 {
+      width: 30%;
+      height: 100%;
+      float: left;
+    }
+
+    .master {
+      width: 30%;
+      height: 100%;
+      float: left;
+    }
+
+    .master h3 {
+      text-align: center;
+      margin: 20px 0px 0px 0px;
+    }
+
+    .master p {
+      text-align: right;
+      margin: 0px 30px 0px 0px;
+    }
+
+    .location {
+      width: 70%;
+      height: 100%;
+      float: left;
+    }
+
+    .location p {
+      font-size: 16px;
+      margin: 15px 10px;
+    }
